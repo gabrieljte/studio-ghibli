@@ -174,7 +174,7 @@ button:nth-of-type(1) {
 
 /* responsive - mobile */
 
-@media screen and (max-width: 640px) {
+@media (max-width: 1280px) {
 
     .container {
         flex-direction: column;
@@ -183,7 +183,7 @@ button:nth-of-type(1) {
     }
 
     .left-side {
-        align-self: flex-end;
+        align-self: center;
         position: absolute;
     }
 
