@@ -173,9 +173,14 @@ button:nth-of-type(1) {
     margin-left: 210px;
 }
 
-/* responsive - mobile */
-
+/* responsive - mobile refazer */
+/* 
 @media screen and (max-width: 1280px) {
+
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
 
     nav {
         margin: 0;
@@ -225,6 +230,5 @@ button:nth-of-type(1) {
     button:nth-of-type(2) {
         display: none;
     }
-}
-
+} */
 
