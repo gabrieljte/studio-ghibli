@@ -117,6 +117,7 @@ ul>.nav-item {
 .left-side>p {
     font-size: 16px;
     letter-spacing: 2px;
+    align-self: center;
 }
 
 .buttons {
@@ -174,31 +175,51 @@ button:nth-of-type(1) {
 
 /* responsive - mobile */
 
-@media (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
+
+    nav {
+        margin: 0;
+    }
 
     .container {
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-end;    
+        align-items: center;                      
         margin: 0;
     }
 
     .left-side {
         align-self: center;
         position: absolute;
+        align-items: center;
     }
 
     .left-side>h1 {
-        font-size: 56px;
+        font-size: 28px;
     }
 
     .left-size>h2 {
-        font-size: 14px;
+        font-size: 10px;
+    }
+
+    .left-side>p {
+        font-size: 10px;
+        text-align: center;
+        font-weight: 700;
     }
 
     .right-side {
         align-self: center;
         justify-self: center;
         margin-left: 0;
+    }
+
+    .imgs>img {
+        transform: scale(0.8);
+    }
+    
+    .imgs>img:nth-of-type(2) {
+        margin-left: 150px;
     }
 
     button:nth-of-type(2) {
